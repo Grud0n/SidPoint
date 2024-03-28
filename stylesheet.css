@@ -22,3 +22,11 @@
 .left_arrow, .right_arrow {
     display: flex;
 }
+
+.hidden {
+    display: none;
+}
+
+.show {
+    display: block;
+}
