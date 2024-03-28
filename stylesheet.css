@@ -1,1 +1,15 @@
+* {
+    font-family: sans-serif
+}
 
+.top_bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: silver;
+}
+
+.button_basic {
+    background-color: white;
+    font-size: 30px;
+}
