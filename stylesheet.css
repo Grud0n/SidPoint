@@ -1,1 +1,24 @@
+* {
+    font-family: sans-serif
+}
 
+.top_bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: silver;
+}
+
+.button_basic {
+    background-color: white;
+    font-size: 30px;
+}
+
+.numbers {
+    display: flex;
+    justify-content: center;
+}
+
+.left_arrow, .right_arrow {
+    display: flex;
+}
