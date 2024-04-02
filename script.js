@@ -11,10 +11,10 @@ function showMessage(section) {
 
   if (section === "Left") {
     // Go to the previous section
-    currentSection = currentSection > 1 ? currentSection - 1 : 10;
+    currentSection = currentSection > 1 ? currentSection - 1 : 7;
   } else if (section === "Right") {
     // Go to the next section
-    currentSection = currentSection < 10 ? currentSection + 1 : 1;
+    currentSection = currentSection < 7 ? currentSection + 1 : 1;
   } else {
     // Go to the specified section
     currentSection = section;
