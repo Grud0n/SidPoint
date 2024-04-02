@@ -9,12 +9,11 @@
   <title>PowerPoint SID Edition</title>
 </head>
 
-<body /*onload="javascript:alert('onload');" * />
+<body>
 <header>
   <div class="top_bar">
     <div class="left_arrow">
-      <Button type="button" class="button_basic" style="justify-content: space-between;"
-        onclick="javascript:showMessage(Left);">&larr;</Button>
+      <Button type="button" class="button_basic" style="justify-content: space-between;" onclick="javascript:showMessage(Left);">&larr;</Button>
     </div>
     <div class="numbers">
       <Button type="button" class="button_basic" onclick="javascript:showMessage(1);">1</Button>
@@ -29,7 +28,7 @@
       <Button type="button" class="button_basic" onclick="javascript:showMessage(10);">10</Button>
     </div>
     <div class="right_arrow">
-      <Button type="button" class="button_basic" onclick="javascript:showMessage(Left);">&rarr;</Button>
+      <Button type="button" class="button_basic" onclick="javascript:showMessage(Right);">&rarr;</Button>
     </div>
   </div>
 </header>
@@ -40,7 +39,7 @@
 
   <!--Folie 1-->
 
-  <section id="folie01">
+  <section id="1" class="hidden">
     <div class="titelfeld">
       <h1>Arbeitsauftrag des FB2.3</h1>
     </div>
@@ -51,7 +50,7 @@
 
   <!--Folie 2-->
 
-  <section id="folie02">
+  <section id="2" class="hidden">
     <div class="titelfeld">
       <h1>Gliederung</h1>
     </div>
@@ -64,11 +63,11 @@
         - Fragerunde
       </p>
     </div>
-  </section>
+  </section class="hidden">
 
   <!--Folie 3-->
 
-  <section id="folie03">
+  <section id="3" class="hidden">
     <div class="titelfeld">
       <h1>Wo waren wir und was haben wir gemacht</h1>
     </div>
@@ -82,7 +81,7 @@
 
   <!--Folie 4-->
 
-  <section id="folie04">
+  <section id="4" class="hidden">
     <div class="titelfeld">
       <h1>Die Grundbausteine der Programmierung</h1>
     </div>
@@ -93,7 +92,7 @@
 
   <!--Folie 5-->
 
-  <section id="folie05">
+  <section id="5" class="hidden">
     <div class="titelfeld">
       <h1>Javascript</h1>
     </div>
@@ -107,7 +106,7 @@
 
   <!--Folie 6-->
 
-  <section id="folie06">
+  <section id="6" class="hidden">
     <div class="titelfeld">
       <h1>HTML</h1>
     </div>
@@ -121,7 +120,7 @@
 
   <!--Folie 7-->
 
-  <section id="folie07">
+  <section id="7" class="hidden">
     <div class="titelfeld">
       <h1>Welche hilfen hatten wir?</h1>
     </div>
@@ -135,7 +134,7 @@
 
   <!--Folie 7-->
 
-  <section id="folie08">
+  <section id="8" class="hidden">
     <div class="titelfeld">
       <h1>Fragerunde</h1>
     </div>
