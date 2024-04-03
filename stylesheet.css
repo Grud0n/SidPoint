@@ -81,7 +81,7 @@ section {
     margin-top: 40px;
     padding: 30px;
     text-align: center;
-    background-color: hsl(0, 0%, 91%);
+    background-color: #ededed;
 }
 
 footer {
@@ -92,5 +92,5 @@ footer {
     margin-right: auto;
     margin-top: 40px;
     text-align: center;
-    background-color: hsl(0, 0%, 91%);
+    background-color: #ededed;
 }
