@@ -72,7 +72,8 @@ body {
 }
 
 main {
-    margin-top: 50px; 
+    margin-top: 50px;
+    height: fit-content;
 }
 
 section {
@@ -86,7 +87,7 @@ section {
     background-color: #ededed;
     margin-left: 4%;
     margin-right: 4%;
-    height: 650px;
+    height: fit-content;
 }
 
 footer {
