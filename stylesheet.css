@@ -80,20 +80,20 @@ section {
     border-width: 1px;
     border-style: solid;
     background-color: #c0c0c0;
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 40px;
     padding: 30px;
     text-align: center;
     background-color: #ededed;
+    margin-left: 4%;
+    margin-right: 4%;
 }
 
 footer {
     border-color: rgb(203 203 203);
     border-width: 1px;
     border-style: solid;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 4%;
+    margin-right: 4%;
     margin-top: 40px;
     text-align: center;
     background-color: #ededed;

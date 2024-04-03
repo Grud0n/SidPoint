@@ -11,10 +11,10 @@ function showMessage(section) {
 
   if (section === "Left") {
     // Go to the previous section
-    currentSection = currentSection > 1 ? currentSection - 1 : 7;
+    currentSection = currentSection > 1 ? currentSection - 1 : 9;
   } else if (section === "Right") {
     // Go to the next section
-    currentSection = currentSection < 7 ? currentSection + 1 : 1;
+    currentSection = currentSection < 9 ? currentSection + 1 : 1;
   } else {
     // Go to the specified section
     currentSection = section;
@@ -25,7 +25,7 @@ function showMessage(section) {
 }
 
 // When the page loads, show the first section
-window.onload = function() {
+window.onload = function () {
   showMessage(1);
 };
 
