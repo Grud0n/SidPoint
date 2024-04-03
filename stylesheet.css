@@ -72,7 +72,7 @@ main {
 }
 
 section {
-    border-color: black;
+    border-color: rgb(203 203 203);
     border-width: 1px;
     border-style: solid;
     background-color: #c0c0c0;
@@ -81,17 +81,16 @@ section {
     margin-top: 40px;
     padding: 30px;
     text-align: center;
-    background-color: #c0c0c0;
+    background-color: hsl(0, 0%, 91%);
 }
 
 footer {
-    border-color: rgb(0, 0, 0);
+    border-color: rgb(203 203 203);
     border-width: 1px;
     border-style: solid;
     margin-left: auto;
     margin-right: auto;
     margin-top: 40px;
-    padding: 30px;
     text-align: center;
-    background-color: #c0c0c0;
+    background-color: hsl(0, 0%, 91%);
 }
