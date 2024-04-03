@@ -100,3 +100,7 @@ footer {
     text-align: center;
     background-color: #ededed;
 }
+
+p {
+    font-size: 1.2rem;
+}
