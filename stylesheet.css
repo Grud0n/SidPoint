@@ -67,6 +67,10 @@
     }
 }
 
+main {
+    margin-top: 50px; 
+}
+
 section {
     border-color: black;
     border-width: 1px;
@@ -75,13 +79,17 @@ section {
     margin-right: auto;
     margin-top: 40px;
     padding: 30px;
+    text-align: center;
+
 }
 
-main {
-    margin-top: 50px; 
-}
-
-p {
-    margin-right: auto; 
-    margin-left: auto; 
+footer {
+    border-color: rgb(0, 0, 0);
+    border-width: 1px;
+    border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    padding: 30px;
+    text-align: center;
 }
