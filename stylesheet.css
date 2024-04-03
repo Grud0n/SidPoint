@@ -1,5 +1,6 @@
 * {
-    font-family: sans-serif
+    font-family: sans-serif;
+    background-image: url("background.jpg");
 }
 
 .top_bar {
