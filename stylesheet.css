@@ -12,11 +12,6 @@ body {
     justify-content: space-between;
 }
 
-/*.button_basic {
-    background-color: white;
-    font-size: 30px;
-}*/
-
 .numbers {
     display: flex;
     justify-content: center;
