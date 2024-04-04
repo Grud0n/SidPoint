@@ -28,6 +28,22 @@ function showMessage(section) {
 
   // Add the 'selected' class to the new current button
   document.getElementById("btn" + currentSection.toString()).classList.add("selected");
+
+  var r = document.getElementById("Right");
+  var l = document.getElementById("Left");
+
+  if (currentSection >= 9) {
+    r.classList.add("arrowsHidden")
+
+  } else {
+    r.classList.remove("arrowsHidden")
+  }
+
+  if (currentSection <= 1) {
+    l.classList.add("arrowsHidden")
+  } else {
+    l.classList.remove("arrowsHidden")
+  }
 }
 
 

@@ -31,6 +31,10 @@ body {
     display: none;
 }
 
+.arrowsHidden {
+    visibility: hidden;
+}
+
 .show {
     display: block;
 }
@@ -108,5 +112,4 @@ p {
 .button_basic.selected {
     background-color: #422800;
     color: #fbeee0;
-  }
-  
+}
