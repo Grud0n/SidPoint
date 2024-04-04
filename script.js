@@ -51,5 +51,3 @@ function showMessage(section) {
 window.onload = function () {
   showMessage(1);
 };
-
-
