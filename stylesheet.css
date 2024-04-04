@@ -92,7 +92,9 @@ section {
     margin-left: 4%;
     margin-right: 4%;
     height: 650px;
+    font-size: 2.2rem;
 }
+
 
 footer {
     border-color: rgb(203 203 203);
@@ -103,10 +105,6 @@ footer {
     margin-top: 40px;
     text-align: center;
     background-color: #ededed;
-}
-
-p {
-    font-size: 2.2rem;
 }
 
 .button_basic.selected {
