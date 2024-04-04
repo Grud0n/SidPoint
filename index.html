@@ -46,7 +46,7 @@
       </div>
       <div class="textfeld">
         <p>Von Paul von dem Hagen und Jakob Lischke</p>
-          <img src="SID.jfif" style="border:none;width: 450px;">
+        <img src="SID.jfif" style="border:none;width: 450px;">
       </div>
     </section>
 
@@ -91,7 +91,7 @@
         <h1>Die Grundbausteine der Programmierung</h1>
       </div>
       <div class="textfeld">
-        <p>Squenz = Die lineare Folge von Anweisungen<br>Selektion = Auswahl von Datenobjekten aus einer Datenmenge<br>Iteration = wiederholte Ausführung von Anweisungen in einer Schleife oder den wiederholten Zugriff auf Datenstrukturen</p>
+        <p>Squenz<br>Selektion<br>Iteration</p>
       </div>
     </section>
 
@@ -103,27 +103,63 @@
       </div>
       <div class="textfeld">
         <p>
-          - Programmiersprache für dynamisches HTML im Webbrowser<br>
-          - 1995 von Netscape entwickelt<br>
+          - Skriptsprache für dynamisches HTML im Webbrowser
+          - 1995 von Netscape entwickelt
 
-          Verwendung von Javascript in unserem Projekt:<br>
-          - Steuerung der Navigation durch die Folien der Präsentation sowie das Anzeigen von Inhalten<br>
+          Verwendung von Javascript in unserem Projekt:
+          - Steuerung der Navigation durch die Folien der Präsentation sowie das Anzeigen von Inhalten
 
-          Die Funktion showMessage(section) wird definiert, um die Nachrichten zu steuern, die angezeigt werden, wenn
-          auf die Schaltflächen geklickt wird, um zwischen den Folien zu navigieren.<br>
-          Die Variable currentSection wird initialisiert, um die aktuell sichtbare Folie zu verfolgen. Standardmäßig ist
-          die erste Folie (ID 1) sichtbar.<br>
-          Innerhalb der showMessage-Funktion werden die aktuellen Abschnitte ausgeblendet und die entsprechenden
-          Schaltflächen aktualisiert, um den Status der Navigation anzuzeigen.<br>
-          Wenn die Funktion mit "Left" oder "Right" aufgerufen wird, wird die nächste bzw. vorherige Folie entsprechend
-          der aktuellen currentSection ausgewählt.<br>
-          Wenn die Funktion mit einer Nummer aufgerufen wird, wird direkt zur entsprechenden Folie gesprungen.<br>
-          Nachdem die neue aktive Folie ausgewählt wurde, wird sie sichtbar gemacht und die zugehörige Schaltfläche wird
-          als "ausgewählt" markiert.<br>
-          Zusätzlich wird überprüft, ob die aktuellen Folien die ersten oder letzten sind, um die Pfeilschaltflächen
-          entsprechend auszublenden oder anzuzeigen.<br>
-          Schließlich wird beim Laden der Seite die Funktion showMessage(1) aufgerufen, um die erste Folie anzuzeigen.
+          Die Funktion showMessage(section).
+          <code lang="javascript">
+            let currentSection = 1;
 
+            function showMessage(section) {
+              // Hide the current section
+              document.getElementById(currentSection.toString()).classList.add("hidden");
+            
+              // Remove the 'selected' class from the current button
+              document.getElementById("btn" + currentSection.toString()).classList.remove("selected");
+            
+              if (section === "Left") {
+                // Go to the previous section
+                currentSection = currentSection > 1 ? currentSection - 1 : 9;
+              } else if (section === "Right") {
+                // Go to the next section
+                currentSection = currentSection < 9 ? currentSection + 1 : 1;
+              } else {
+                // Go to the specified section
+                currentSection = section;
+              }
+            
+              // Show the new current section
+              document.getElementById(currentSection.toString()).classList.remove("hidden");
+            
+              // Add the 'selected' class to the new current button
+              document.getElementById("btn" + currentSection.toString()).classList.add("selected");
+
+              window.onload = function () {
+                showMessage(1);
+              };
+          </code>
+          <hr>
+          <code>
+            var r = document.getElementById("Right");
+            var l = document.getElementById("Left");
+
+            if (currentSection >= 9) {
+              r.classList.add("arrowsHidden")
+
+             } else {
+              r.classList.remove("arrowsHidden")
+             }
+
+            if (currentSection <= 1) {
+               l.classList.add("arrowsHidden")
+              } else {
+              l.classList.remove("arrowsHidden")
+              }
+            }
+          </code>
         </p>
       </div>
     </section>
@@ -142,7 +178,7 @@
           Der HTML-Code definiert die Struktur und den Inhalt einer Webseite.<br>
 
           head-Bereich werden Metadaten wie Zeichensatz und Verweise auf externe Dateien festgelegt.<br>
-          
+
 
           Im body-Bereich befinden sich die eigentlichen Inhalte der Webseite, einschließlich Header, Hauptinhalt und
           Footer.<br>
@@ -158,13 +194,13 @@
 
     <section id="7" class="hidden">
       <div class="titelfeld">
-        <h1>Fazit</h1>
+        <h2>Fazit</h1>
       </div>
       <div class="textfeld">
-        <h2>Was haben wir glernt?</h2>
-        <h2>Wie war die Umsetzung?</h2>
-        <h2>Ergebnis?</h2>
-        <h2>Was könnte man anders machen?</h2>
+        <h3>Was haben wir glernt?</h2>
+          <h3>Wie war die Umsetzung?</h2>
+            <h3>Ergebnis?</h2>
+              <h3>Was könnte man anders machen?</h2>
       </div>
     </section>
 
@@ -175,7 +211,9 @@
         <h1>Fragen</h1>
       </div>
       <div class="textfeld">
-        <img src="https://static.vecteezy.com/system/resources/previews/016/389/923/original/question-mark-and-man-holding-newspaper-free-png.png" alt="Fragezeichen" srcset="" style="width: 700px;">
+        <img
+          src="https://static.vecteezy.com/system/resources/previews/016/389/923/original/question-mark-and-man-holding-newspaper-free-png.png"
+          alt="Fragezeichen" srcset="" style="width: 700px;">
       </div>
     </section>
 
