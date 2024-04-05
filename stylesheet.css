@@ -142,7 +142,11 @@ hr {
 }
 
 table {
-    width: 100%; text-align: center; border: 1px solid;
+    width: 100%; text-align: center;
+}
+
+th {
+    border: 1px solid;
 }
 
 td {
