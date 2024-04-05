@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="stylesheet.css">
+  <script src="script.js"></script>
+  <title>PowerPoint SID Edition</title>
+</head>
+
+<body>
+  <header>
+    <div class="top_bar">
+      <div class="arrow">
+        <button id="Left" type="button" class="button_basic" onclick="javascript:showMessage('Left');">&larr;</button>
+      </div>
+      <div class="numbers">
+        <Button id="btn1" type="button" class="button_basic" onclick="javascript:showMessage(1);">1</Button>
+        <Button id="btn2" type="button" class="button_basic" onclick="javascript:showMessage(2);">2</Button>
+        <Button id="btn3" type="button" class="button_basic" onclick="javascript:showMessage(3);">3</Button>
+        <Button id="btn4" type="button" class="button_basic" onclick="javascript:showMessage(4);">4</Button>
+        <Button id="btn5" type="button" class="button_basic" onclick="javascript:showMessage(5);">5</Button>
+        <Button id="btn6" type="button" class="button_basic" onclick="javascript:showMessage(6);">6</Button>
+        <Button id="btn7" type="button" class="button_basic" onclick="javascript:showMessage(7);">7</Button>
+        <Button id="btn8" type="button" class="button_basic" onclick="javascript:showMessage(8);">8</Button>
+        <Button id="btn9" type="button" class="button_basic" onclick="javascript:showMessage(9);">9</Button>
+
+        <!--<Button type="button" class="button_basic" onclick="javascript:showMessage(10);">10</Button>-->
+      </div>
+      <div class="arrow">
+        <button id="Right" type="button" class="button_basic" onclick="javascript:showMessage('Right');">&rarr;</button>
+      </div>
+    </div>
+  </header>
+
+  <nav>
+  </nav>
+  <main>
+
+    <!--Folie 1-->
+
+    <section id="1" class="hidden">
+      <div class="titelfeld">
+        <h1>Arbeitsauftrag des FB2.3</h1>
+      </div>
+      <div class="textfeld">
+        <p>Von Paul von dem Hagen und Jakob Lischke</p>
+        <img src="SID.jfif" style="border:none;width: 450px;">
+      </div>
+    </section>
+
+    <!--Folie 2-->
+
+    <section id="2" class="hidden">
+      <div class="titelfeld">
+        <h1>Gliederung</h1>
+      </div>
+      <div class="textfeld">
+        <p>- Wo waren wir und was haben wir gemacht <br>
+          - Die Grundbausteine der Programmierung <br>
+          - Javascript<br>
+          - HTML<br>
+          - Welche hilfen hatten wir?<br>
+          - Fragerunde
+        </p>
+      </div>
+    </section class="hidden">
+
+    <!--Folie 3-->
+
+    <section id="3" class="hidden">
+      <div class="titelfeld">
+        <h1>Wo waren wir und was haben wir gemacht</h1>
+      </div>
+      <div class="textfeld">
+        <p>Wo?</p>
+        <p>FB 2.3</p>
+        <p>Garnisonsplatz 13, 01917, Kamenz</p>
+        <p>Was?</p>
+        <p>Programierung mit HTML &amp; JavaScript im Browser</p>
+        <p>Entwicklung einer Präsentations Anwendung im Browser</p>
+      </div>
+    </section>
+
+    <!--Folie 4-->
+
+    <section id="4" class="hidden">
+      <div class="titelfeld">
+        <h1>Die Grundbausteine der Programmierung</h1>
+      </div>
+      <div class="textfeld">
+        <p>Squenz = Die lineare Folge von Anweisungen<br>Selektion = Auswahl von Datenobjekten aus einer
+          Datenmenge<br>Iteration = wiederholte Ausführung von Anweisungen in einer Schleife oder den wiederholten
+          Zugriff auf Datenstrukturen</p>
+      </div>
+    </section>
+
+    <!--Folie 5-->
+
+    <section id="5" class="hidden">
+      <div class="titelfeld">
+        <h1>HTML</h1>
+      </div>
+      <div class="textfeld">
+        <p>- textbasierte Auszeichnungssprache zur Strukturierung elektronischer Dokumente<br>
+          HTML = Hypertext Markup Language<br>
+          - 1992 von World Wide Web Consortium veröffentlicht<br>
+
+          Der HTML-Code definiert die Struktur und den Inhalt einer Webseite.<br>
+
+          head-Bereich werden Metadaten wie Zeichensatz und Verweise auf externe Dateien festgelegt.<br>
+
+          <a href="view-source:index.html" target="_blank">Quell Code</a>
+
+          Im body-Bereich befinden sich die eigentlichen Inhalte der Webseite, einschließlich Header, Hauptinhalt und
+          Footer.<br>
+          Der Header enthält die Top-Leiste mit Schaltflächen und dem Titel der Präsentation.<br>
+          Der Hauptinhalt besteht aus Abschnitten, die die einzelnen Folien der Präsentation darstellen.<br>
+          Jede Folie hat eine eindeutige ID und besteht aus einem Titelfeld und einem Textfeld.<br>
+          Der Footer enthält das Datum und den Eigentümer der Präsentation.<br>
+        </p>
+      </div>
+    </section>
+
+    <!--Folie 6-->
+
+    <section id="6" class="hidden extraspace" style="padding-bottom: 400px;">
+      <div class="titelfeld">
+        <h1>Javascript</h1>
+      </div>
+      <div class="textfeld">
+        <p>
+          Allgemeines:<br>
+          - Skriptsprache für dynamisches HTML im Webbrowser<br>
+          - 1995 von Netscape entwickelt<br>
+          Verwendung von Javascript in unserem Projekt:<br>
+          - Steuerung der Navigation durch die Folien der Präsentation sowie das Anzeigen von Inhalten<br>
+        </p>
+        <img class="center-content-picture" src="JS.png" alt="Image of JS Code" srcset="" style="width: 750px;">
+      </div>
+    </section>
+
+    <!--Folie 7-->
+
+    <section id="7" class="hidden">
+      <div class="titelfeld">
+        <h2>Fazit</h1>
+      </div>
+      <div class="textfeld">
+        <h3>Was haben wir glernt?</h2>
+          <h3>Wie war die Umsetzung?</h2>
+            <h3>Ergebnis?</h2>
+              <h3>Was könnte man anders machen?</h2>
+      </div>
+    </section>
+
+    <!--Folie 8-->
+
+    <section id="8" class="hidden">
+      <div class="titelfeld">
+        <h1 class="center-content">Fragen</h1>
+      </div>
+      <div class="textfeld">
+        <img class="center-content-picture"
+          src="https://static.vecteezy.com/system/resources/previews/016/389/923/original/question-mark-and-man-holding-newspaper-free-png.png"
+          alt="Fragezeichen" srcset="" style="width: 700px;">
+      </div>
+    </section>
+
+    <!--Folie 9-->
+
+    <section id="9" class="hidden">
+      <div class="titelfeld">
+        <h1 class="center-content">Vielen Dank für Ihre Aufmerksamkeit! </h1>
+      </div>
+      <div class="textfeld">
+        <p class="center-content">Hier muss noch ein Bild hin</p>
+      </div>
+    </section>
+
+  </main>
+  <footer>
+    <div id="datum">
+      <p>28.03.2024</p>
+    </div>
+
+    <div id="owner">
+      <p>Paul und Jakob</p>
+    </div>
+  </footer>
+
+</body>
+
+
+</html>
