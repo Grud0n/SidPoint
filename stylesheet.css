@@ -132,11 +132,6 @@ h1 {
 
 }
 
-.sid {
-    float: right;
-    align-items: right
-}
-
 hr {
     size: 4;
 }
@@ -155,4 +150,6 @@ td {
 
 .titelfeld {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
