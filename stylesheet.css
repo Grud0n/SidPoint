@@ -153,3 +153,7 @@ td {
     flex-direction: row;
     justify-content: space-between;
 }
+
+.sid {
+    size: 70%
+}
