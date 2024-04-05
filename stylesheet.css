@@ -134,4 +134,9 @@ h1 {
 
 .sid {
     float: right;
+    align: right
+}
+
+hr {
+    size: 4;
 }
