@@ -103,63 +103,12 @@
       </div>
       <div class="textfeld">
         <p>
+          Allgemeines:
           - Skriptsprache für dynamisches HTML im Webbrowser
           - 1995 von Netscape entwickelt
-
           Verwendung von Javascript in unserem Projekt:
           - Steuerung der Navigation durch die Folien der Präsentation sowie das Anzeigen von Inhalten
-
-          Die Funktion showMessage(section).
-          <code lang="javascript">
-            let currentSection = 1;
-
-            function showMessage(section) {
-              // Hide the current section
-              document.getElementById(currentSection.toString()).classList.add("hidden");
-            
-              // Remove the 'selected' class from the current button
-              document.getElementById("btn" + currentSection.toString()).classList.remove("selected");
-            
-              if (section === "Left") {
-                // Go to the previous section
-                currentSection = currentSection > 1 ? currentSection - 1 : 9;
-              } else if (section === "Right") {
-                // Go to the next section
-                currentSection = currentSection < 9 ? currentSection + 1 : 1;
-              } else {
-                // Go to the specified section
-                currentSection = section;
-              }
-            
-              // Show the new current section
-              document.getElementById(currentSection.toString()).classList.remove("hidden");
-            
-              // Add the 'selected' class to the new current button
-              document.getElementById("btn" + currentSection.toString()).classList.add("selected");
-
-              window.onload = function () {
-                showMessage(1);
-              };
-          </code>
-          <hr>
-          <code>
-            var r = document.getElementById("Right");
-            var l = document.getElementById("Left");
-
-            if (currentSection >= 9) {
-              r.classList.add("arrowsHidden")
-
-             } else {
-              r.classList.remove("arrowsHidden")
-             }
-
-            if (currentSection <= 1) {
-               l.classList.add("arrowsHidden")
-              } else {
-              l.classList.remove("arrowsHidden")
-              }
-            }
-          </code>
+          <img src="JS.png" alt="Image of JS Code" srcset="">
         </p>
       </div>
     </section>
