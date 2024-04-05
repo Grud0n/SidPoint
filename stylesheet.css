@@ -35,11 +35,11 @@ body {
 }
 
 .button_basic {
-    background-color: #FCA41C;
-    border: 2px solid #447B80;
+    background-color: #447B80;
+    border: 2px solid #ffffff;
     border-radius: 20px;
     box-shadow: #447B80 2px 2px 0 0;
-    color: #447B80;
+    color: #ffffff;
     cursor: pointer;
     display: inline-block;
     font-weight: 600;
@@ -55,11 +55,11 @@ body {
 }
 
 .button_basic:hover {
-    background-color: #fff;
+    background-color: #FCA41C;
 }
 
 .button_basic:active {
-    box-shadow: #447B80 2px 2px 0 0;
+    box-shadow: #ffffff 2px 2px 0 0;
     transform: translate(2px, 2px);
 }
 
