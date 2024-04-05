@@ -1,4 +1,3 @@
-Nice
 <!DOCTYPE html>
 <html lang="de">
 
