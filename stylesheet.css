@@ -155,5 +155,6 @@ td {
 }
 
 .sid {
-    size: 70%
+    width: 70%;
+    height: auto;
 }
