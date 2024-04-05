@@ -3,7 +3,7 @@
 }*/
 
 // Current visible section
-let currentSection = 1;
+var currentSection = 1;
 
 function showMessage(section) {
   // Hide the current section
@@ -29,8 +29,8 @@ function showMessage(section) {
   // Add the 'selected' class to the new current button
   document.getElementById("btn" + currentSection.toString()).classList.add("selected");
 
-  var r = document.getElementById("Right");
-  var l = document.getElementById("Left");
+  let r = document.getElementById("Right");
+  let l = document.getElementById("Left");
 
   if (currentSection >= 9) {
     r.classList.add("arrowsHidden")
