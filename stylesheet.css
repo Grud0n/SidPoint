@@ -118,4 +118,9 @@ h1 {
 
 .center-content {
     text-align: center;
+
+}
+
+.center-content-picture {
+    margin: auto;
 }
