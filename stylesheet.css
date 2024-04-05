@@ -81,7 +81,10 @@ section {
     border-style: solid;
     background-color: #c0c0c0;
     margin-top: 40px;
-    padding: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 7%;
+    padding-right: 7%;
     text-align: left;
     background-color: #ededed;
     margin-left: 4%;
